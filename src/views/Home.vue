@@ -9,7 +9,7 @@
           <h1 class="text-center">Subir archivo</h1>
           <div class="card-footer">
             
-              <input  style="display: 150px;" class="carga py-5 pl-5" type="file" @change="onFileSelected($event)">
+              <input  style="display: 150px;" class="carga py-5 pl-5" type="file" accept="image/*" @change="onFileSelected($event)">
               <br><br>
             
             <div class="row justify-content-center">
