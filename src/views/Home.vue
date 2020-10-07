@@ -1,12 +1,11 @@
 <template>
-  <div class="container-fluid">
+  <div class="container" style="height: 35rem; background-color:white">
     
-    <div class="row">
+    <div class="row py-5">
       
-      <div class="col-12">
+      <div class="col-12 py-5">
         
         <div class="card tarjeta">
-          <br><br>
           <h1 class="text-center">Subir archivo</h1>
           <div class="card-footer">
             
@@ -67,15 +66,12 @@ export default {
 .carga{
   
   height: 150px;
-  width: 500px;
+  width: 100%;
   background-color: white;
   border: 1px solid rgb(0, 0, 0);
   
   
 }
-.carga :focus{
-  border: none;
-  
-}
+
 
 </style>
